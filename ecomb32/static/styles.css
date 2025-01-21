@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40 !important;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff6f61 !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Form Styles */
+.container {
+    margin-top: 40px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff6f61;
+    box-shadow: 0px 0px 5px rgba(255, 111, 97, 0.6);
+}
+
+input[type="submit"] {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e05a4f;
+}
+
+/* Card / Container Styles for Add Product Page */
+.col-8 {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input[type="submit"]:active {
+    background-color: #c74c41;
+}
+
+/* Page Header Styling */
+h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Alerts and Messages */
+.alert {
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-danger {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #e05a4f;
+}
+
+/* Box shadow effect for inputs and containers */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+/* Container styles */
+.container {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

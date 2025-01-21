@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <div class="container mt-4">
+    <h2 class="text-center">Add New Product</h2>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="col-8 mx-auto" style="background-color: #f0f8ff; margin: 0 auto; border: solid 1px #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            {{ form.as_table }}
+
+            <div class="text-center mt-4">
+                <input type="submit" value="Add Product" class="btn btn-danger">  <!-- Submit button -->
+            </div>
+        </div>
+    </form>
+  </div>
+{% endblock %}
+
